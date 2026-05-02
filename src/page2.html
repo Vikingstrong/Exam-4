@@ -165,11 +165,11 @@
                     <p class="font-semibold text-[20px] text-[#141414]">осуществляется только в присутствии законных
                         представителей
                         ребенка:</p>
-                        <ul class="list-disc list-inside ml-5 marker:text-[#D092C6]">
-                            <li class=" gap-3 font-semibold text-[20px] text-[#141414]">родители</li>
-                            <li class=" gap-3 font-semibold text-[20px] text-[#141414]">опекуны</li>
-                            <li class=" gap-3 font-semibold text-[20px] text-[#141414]">попечители</li>
-                        </ul>
+                    <ul class="list-disc list-inside ml-5 marker:text-[#D092C6]">
+                        <li class=" gap-3 font-semibold text-[20px] text-[#141414]">родители</li>
+                        <li class=" gap-3 font-semibold text-[20px] text-[#141414]">опекуны</li>
+                        <li class=" gap-3 font-semibold text-[20px] text-[#141414]">попечители</li>
+                    </ul>
                 </div>
                 <div>
                     <p class="font-normal text-[18px] text-[#141414]">Основание:</p>
@@ -197,65 +197,143 @@
         </div>
     </section>
     <section class="max-w-[1920px] mx-auto mt-[100px]">
-<div class="max-w-[1312px] lg:h-[425px] w-[90%] mx-auto bg-gradient-to-r from-[#7D8DD0] to-[#2DBDC4] rounded-[30px] p-8 md:p-[60px] text-white">
-    <div class="flex flex-col lg:flex-row justify-between items-end gap-8">
-        
-        <div class="w-90% lg:max-w-[840px]">
-            <div class="mb-10">
-                <h2 class="text-[40px] md:text-[54px] font-medium leading-tight mb-2">Записаться на приём</h2>
-            </div>
+        <div
+            class="max-w-[1312px] lg:h-[425px] w-[90%] mx-auto bg-gradient-to-r from-[#7D8DD0] to-[#2DBDC4] rounded-[30px] p-8 md:p-[60px] text-white">
+            <div class="flex flex-col lg:flex-row justify-between items-end gap-8">
 
-            <div class="hidden md:grid grid-cols-2 gap-4">
-                <div class="relative">
-                    <select class="w-full h-[65px] px-6 rounded-lg bg-white text-[#141414] text-[18px] appearance-none outline-none cursor-pointer">
-                        <option>Выберете направление</option>
-                    </select>
-                    <div class="absolute right-5 top-1/2 -translate-y-1/2">
-                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none" class="stroke-[#141414]"><path d="M1 1L7 7L13 1" stroke-width="2"/></svg>
+                <div class="w-90% lg:max-w-[840px]">
+                    <div class="mb-10">
+                        <h2 class="text-[40px] md:text-[54px] font-medium leading-tight mb-2">Записаться на приём</h2>
+                    </div>
+
+                    <div class="hidden md:grid grid-cols-2 gap-4">
+                        <div class="relative">
+                            <select
+                                class="w-full h-[65px] px-6 rounded-lg bg-white text-[#141414] text-[18px] appearance-none outline-none cursor-pointer">
+                                <option>Выберете направление</option>
+                            </select>
+                            <div class="absolute right-5 top-1/2 -translate-y-1/2">
+                                <svg width="14" height="9" viewBox="0 0 14 9" fill="none" class="stroke-[#141414]">
+                                    <path d="M1 1L7 7L13 1" stroke-width="2" />
+                                </svg>
+                            </div>
+                        </div>
+
+                        <input type="text" placeholder="Ваше имя"
+                            class="w-full h-[65px] px-6 rounded-lg bg-white text-[#141414] text-[18px] outline-none">
+
+                        <div class="relative">
+                            <select
+                                class="w-full h-[65px] px-6 rounded-lg bg-white text-[#141414] text-[18px] appearance-none outline-none cursor-pointer">
+                                <option>Выберете врача</option>
+                            </select>
+                            <div class="absolute right-5 top-1/2 -translate-y-1/2 pointer-events-none">
+                                <svg width="14" height="9" viewBox="0 0 14 9" fill="none" class="stroke-[#141414]">
+                                    <path d="M1 1L7 7L13 1" stroke-width="2" />
+                                </svg>
+                            </div>
+                        </div>
+
+                        <input type="tel" placeholder="Ваш телефон"
+                            class="w-full h-[65px] px-6 rounded-lg bg-white text-[#141414] text-[18px] outline-none">
                     </div>
                 </div>
-                
-                <input type="text" placeholder="Ваше имя" class="w-full h-[65px] px-6 rounded-lg bg-white text-[#141414] text-[18px] outline-none">
 
-                <div class="relative">
-                    <select class="w-full h-[65px] px-6 rounded-lg bg-white text-[#141414] text-[18px] appearance-none outline-none cursor-pointer">
-                        <option>Выберете врача</option>
-                    </select>
-                    <div class="absolute right-5 top-1/2 -translate-y-1/2 pointer-events-none">
-                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none" class="stroke-[#141414]"><path d="M1 1L7 7L13 1" stroke-width="2"/></svg>
+                <div class="w-full lg:max-w-[380px] flex flex-col gap-6">
+                    <div class="mb-2">
+                        <p class="text-[18px] md:text-[20px] opacity-90 leading-snug">
+                            Оставьте заявку и мы свяжемся с вами в ближайшее время
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col gap-5">
+                        <button
+                            class="w-full h-[75px] bg-[#00D0B9] hover:bg-[#00beaa] transition-colors rounded-lg text-[20px] font-bold text-white">
+                            Оставить заявку
+                        </button>
+
+                        <label class="flex items-start gap-3 cursor-pointer">
+                            <div class="relative flex items-center justify-center mt-1">
+                                <input type="checkbox"
+                                    class="peer  w-5 h-5 border-2 border-white rounded bg-transparent transition-all"
+                                    checked>
+                            </div>
+                            <span class="text-[13px] leading-tight opacity-90">
+                                Отправляя заявку, вы соглашаетесь на нашу
+                                <a href="#" class="underline decoration-1 underline-offset-2">политику
+                                    конфиденциальности</a>
+                            </span>
+                        </label>
                     </div>
                 </div>
 
-                <input type="tel" placeholder="Ваш телефон" class="w-full h-[65px] px-6 rounded-lg bg-white text-[#141414] text-[18px] outline-none">
             </div>
         </div>
+    </section>
+    <section class="max-w-[1920px] mt-[70px] mx-auto ">
+        <div class="flex justify-center">
+            <aside class="p-3">
+                <p class="text-[40px] lg:text-[60px] font-[700]">Немного о нашем <br> медицинском центре</p>
+                <br>
+                <p class="lg:text-[18px] text-[16px] lg:m-0 font-[400] lg:w-[559px] text-[#141414]">Многопрофильное
+                    амбулаторно-поликлиническое учреждение для детей и взрослых в городе Мытищи. Мы предоставляем
+                    платные медицинские услуги и занимаем лидирующие позиции среди медицинских учреждений города Мытищи.
+                    У нас ежегодно обслуживаются более 150000 пациентов.</p>
+            </aside>
+            <div class="hidden lg:block"><img src="./page2img/image (15).png" alt=""></div>
+        </div>
+        <div class="max-w-[1312px] mx-auto bg-[#F0F5F8] rounded-[20px] p-8 md:p-12">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4">
 
-        <div class="w-full lg:max-w-[380px] flex flex-col gap-6">
-            <div class="mb-2">
-                <p class="text-[18px] md:text-[20px] opacity-90 leading-snug">
-                    Оставьте заявку и мы свяжемся с вами в ближайшее время
-                </p>
-            </div>
-
-            <div class="flex flex-col gap-5">
-                <button class="w-full h-[75px] bg-[#00D0B9] hover:bg-[#00beaa] transition-colors rounded-lg text-[20px] font-bold text-white">
-                    Оставить заявку
-                </button>
-                
-                <label class="flex items-start gap-3 cursor-pointer">
-                    <div class="relative flex items-center justify-center mt-1">
-                        <input type="checkbox" class="peer  w-5 h-5 border-2 border-white rounded bg-transparent transition-all" checked>
+                <div class="flex flex-col gap-3">
+                    <svg width="46" height="46" viewBox="0 0 46 46" fill="none">
+                        <rect x="18" width="10" height="46" rx="2" fill="#00D0B9" />
+                        <rect y="28" width="10" height="46" rx="2" transform="rotate(-90 0 28)" fill="#00D0B9" />
+                    </svg>
+                    <div>
+                        <div class="text-[#017CC1] text-[32px] font-bold leading-none mb-1">>10</div>
+                        <p class="text-[#141414] text-[16px] leading-snug opacity-80">лет заботы о вашем здоровье</p>
                     </div>
-                    <span class="text-[13px] leading-tight opacity-90">
-                        Отправляя заявку, вы соглашаетесь на нашу 
-                        <a href="#" class="underline decoration-1 underline-offset-2">политику конфиденциальности</a>
-                    </span>
-                </label>
+                </div>
+
+                <div class="flex flex-col gap-3">
+                    <svg width="46" height="46" viewBox="0 0 46 46" fill="none">
+                        <rect x="18" width="10" height="46" rx="2" fill="#00D0B9" />
+                        <rect y="28" width="10" height="46" rx="2" transform="rotate(-90 0 28)" fill="#00D0B9" />
+                    </svg>
+                    <div>
+                        <div class="text-[#017CC1] text-[32px] font-bold leading-none mb-1">150</div>
+                        <p class="text-[#141414] text-[16px] leading-snug opacity-80">квалифицированных специалистов</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-3">
+                    <svg width="46" height="46" viewBox="0 0 46 46" fill="none">
+                        <rect x="18" width="10" height="46" rx="2" fill="#00D0B9" />
+                        <rect y="28" width="10" height="46" rx="2" transform="rotate(-90 0 28)" fill="#00D0B9" />
+                    </svg>
+                    <div>
+                        <div class="text-[#017CC1] text-[32px] font-bold leading-none mb-1">3 000</div>
+                        <p class="text-[#141414] text-[16px] leading-snug opacity-80">медицинских услуг по всем
+                            направлениям</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-3">
+                    <svg width="46" height="46" viewBox="0 0 46 46" fill="none">
+                        <rect x="18" width="10" height="46" rx="2" fill="#00D0B9" />
+                        <rect y="28" width="10" height="46" rx="2" transform="rotate(-90 0 28)" fill="#00D0B9" />
+                    </svg>
+                    <div>
+                        <div class="text-[#017CC1] text-[28px] font-bold leading-none mb-1 text-nowrap">День в день
+                        </div>
+                        <p class="text-[#141414] text-[16px] leading-snug opacity-80">прием врача любой специальности в
+                            день обращения</p>
+                    </div>
+                </div>
+
             </div>
         </div>
-
-    </div>
-</div>
     </section>
 </body>
 
