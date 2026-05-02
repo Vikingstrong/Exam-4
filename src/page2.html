@@ -196,6 +196,67 @@
             </div>
         </div>
     </section>
+    <section class="max-w-[1920px] mx-auto mt-[100px]">
+<div class="max-w-[1312px] lg:h-[425px] w-[90%] mx-auto bg-gradient-to-r from-[#7D8DD0] to-[#2DBDC4] rounded-[30px] p-8 md:p-[60px] text-white">
+    <div class="flex flex-col lg:flex-row justify-between items-end gap-8">
+        
+        <div class="w-90% lg:max-w-[840px]">
+            <div class="mb-10">
+                <h2 class="text-[40px] md:text-[54px] font-medium leading-tight mb-2">Записаться на приём</h2>
+            </div>
+
+            <div class="hidden md:grid grid-cols-2 gap-4">
+                <div class="relative">
+                    <select class="w-full h-[65px] px-6 rounded-lg bg-white text-[#141414] text-[18px] appearance-none outline-none cursor-pointer">
+                        <option>Выберете направление</option>
+                    </select>
+                    <div class="absolute right-5 top-1/2 -translate-y-1/2">
+                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none" class="stroke-[#141414]"><path d="M1 1L7 7L13 1" stroke-width="2"/></svg>
+                    </div>
+                </div>
+                
+                <input type="text" placeholder="Ваше имя" class="w-full h-[65px] px-6 rounded-lg bg-white text-[#141414] text-[18px] outline-none">
+
+                <div class="relative">
+                    <select class="w-full h-[65px] px-6 rounded-lg bg-white text-[#141414] text-[18px] appearance-none outline-none cursor-pointer">
+                        <option>Выберете врача</option>
+                    </select>
+                    <div class="absolute right-5 top-1/2 -translate-y-1/2 pointer-events-none">
+                        <svg width="14" height="9" viewBox="0 0 14 9" fill="none" class="stroke-[#141414]"><path d="M1 1L7 7L13 1" stroke-width="2"/></svg>
+                    </div>
+                </div>
+
+                <input type="tel" placeholder="Ваш телефон" class="w-full h-[65px] px-6 rounded-lg bg-white text-[#141414] text-[18px] outline-none">
+            </div>
+        </div>
+
+        <div class="w-full lg:max-w-[380px] flex flex-col gap-6">
+            <div class="mb-2">
+                <p class="text-[18px] md:text-[20px] opacity-90 leading-snug">
+                    Оставьте заявку и мы свяжемся с вами в ближайшее время
+                </p>
+            </div>
+
+            <div class="flex flex-col gap-5">
+                <button class="w-full h-[75px] bg-[#00D0B9] hover:bg-[#00beaa] transition-colors rounded-lg text-[20px] font-bold text-white">
+                    Оставить заявку
+                </button>
+                
+                <label class="flex items-start gap-3 cursor-pointer">
+                    <div class="relative flex items-center justify-center mt-1">
+                        <input type="checkbox" class="peer  w-5 h-5 border-2 border-white rounded bg-transparent transition-all" checked>
+                    </div>
+                    <span class="text-[13px] leading-tight opacity-90">
+                        Отправляя заявку, вы соглашаетесь на нашу 
+                        <a href="#" class="underline decoration-1 underline-offset-2">политику конфиденциальности</a>
+                    </span>
+                </label>
+            </div>
+        </div>
+
+    </div>
+</div>
+    </section>
 </body>
 
 </html>
